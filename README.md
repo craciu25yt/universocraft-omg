@@ -1,2 +1,2 @@
 # universocraft-omg
-xd
+Jupo te amo (ironia)
