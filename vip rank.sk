@@ -1,0 +1,10 @@
+options:
+    prefix: &7[&6Rank Announcer&7]
+
+on load: 
+    send "{@prefix} Loaded - by craciu25_YT"
+
+every 10 minutes:
+    loop all players where [input doesn't have permission "vip.announcer"]:
+        send "&6&l[★] &fAsi quedaria un rango en tu cuenta: &8[&5Sat&8] &5%loop-player% &8[&2Mer&8] &2%loop-player% &8[&9Nep&8] &9%loop-player% &8[&bJup&8] &b%loop-player%" to loop-player
+    
